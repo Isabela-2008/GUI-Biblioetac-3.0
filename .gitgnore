@@ -1,0 +1,18 @@
+# Ignorar arquivos de banco de dados
+*.db
+
+# Ignorar arquivos de configuração do ambiente
+.env
+
+# Ignorar arquivos de cache
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+
+# Ignorar diretórios de testes
+tests/
