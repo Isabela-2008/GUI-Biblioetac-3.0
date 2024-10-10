@@ -1,0 +1,52 @@
+Enunciado
+Título do Projeto: Sistema de Gestão de Livros
+
+Descrição: O Sistema de Gestão de Livros é uma aplicação que permite gerenciar autores, livros e empréstimos em uma biblioteca. Através de uma interface gráfica, os usuários podem adicionar, visualizar e excluir autores e livros, além de registrar empréstimos de livros por usuários.
+
+Funcionalidades:
+
+Adicionar novos autores e livros.
+Visualizar lista de autores e livros.
+Excluir autores (caso não tenham livros associados).
+Registrar empréstimos de livros a usuários.
+Visualizar lista de empréstimos registrados.
+Tecnologias Utilizadas:
+
+Python
+Tkinter (interface gráfica)
+SQLite (banco de dados)
+Como Usar:
+
+Clone o repositório.
+Instale as dependências (se houver).
+Execute o arquivo main.py para iniciar a aplicação.
+Utilize a interface para gerenciar autores, livros e empréstimos.
+
+# Sistema de Gestão de Livros
+
+## Descrição
+O Sistema de Gestão de Livros é uma aplicação desenvolvida em Python que permite gerenciar autores, livros e empréstimos em uma biblioteca. Com uma interface gráfica amigável, os usuários podem facilmente adicionar, visualizar e excluir informações relacionadas a autores e livros, além de registrar empréstimos.
+
+## Funcionalidades
+- **Adicionar Autor:** Permite cadastrar um novo autor.
+- **Adicionar Livro:** Permite cadastrar um novo livro associado a um autor.
+- **Registrar Empréstimo:** Permite registrar o empréstimo de um livro a um usuário.
+- **Visualizar Autores:** Exibe uma lista de todos os autores cadastrados.
+- **Visualizar Livros:** Exibe uma lista de todos os livros cadastrados.
+- **Visualizar Empréstimos:** Exibe uma lista de todos os empréstimos realizados.
+- **Excluir Autor:** Permite excluir um autor, desde que não tenha livros associados.
+
+## Tecnologias Utilizadas
+- Python
+- Tkinter
+- SQLite
+
+## Pré-requisitos
+- Python 3.x instalado
+- Biblioteca Tkinter (já incluída na maioria das instalações do Python)
+- SQLite (já incluído na maioria das instalações do Python)
+
+## Instalação
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu_usuario/nome_do_repositorio.git
