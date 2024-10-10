@@ -142,7 +142,7 @@ def view_emprestimos():
 # Configurações da interface  
 root = tk.Tk()  
 root.title("Sistema de Gestão de Livros")  
-root.configure(bg="#ADD8E6")  # Define a cor de fundo como azul claro
+root.configure(bg="#001F3F")  # Define a cor de fundo como azul marinho
 
 # Define o tamanho da janela (largura x altura)  
 root.geometry("600x400")  # Ajuste o tamanho conforme necessário
@@ -155,10 +155,10 @@ notebook = ttk.Notebook(root)
 notebook.pack(expand=True, fill='both')  
 
 # Aba de Autores  
-tab_autores = tk.Frame(notebook, bg="#ADD8E6")  
+tab_autores = tk.Frame(notebook, bg="#001F3F")  
 notebook.add(tab_autores, text="Autores")  
 
-label_nome_autor = tk.Label(tab_autores, text="Nome do Autor:", bg="#ADD8E6")  
+label_nome_autor = tk.Label(tab_autores, text="Nome do Autor:", bg="#001F3F", fg="white")  
 label_nome_autor.grid(row=0, column=0, padx=5, pady=5)  
 entry_nome_autor = tk.Entry(tab_autores)  
 entry_nome_autor.grid(row=0, column=1, padx=5, pady=5)  
@@ -184,15 +184,15 @@ autores_list.column('Nome', width=200) # Largura da coluna Nome
 autores_list.grid(row=4, column=0, columnspan=2, padx=5, pady=5)  
 
 # Aba de Livros  
-tab_livros = tk.Frame(notebook, bg="#ADD8E6")  
+tab_livros = tk.Frame(notebook, bg="#001F3F")  
 notebook.add(tab_livros, text="Livros")  
 
-label_titulo = tk.Label(tab_livros, text="Título do Livro:", bg="#ADD8E6")  
+label_titulo = tk.Label(tab_livros, text="Título do Livro:", bg="#001F3F", fg="white")  
 label_titulo.grid(row=0, column=0, padx=5, pady=5)  
 entry_titulo = tk.Entry(tab_livros)  
 entry_titulo.grid(row=0, column=1, padx=5, pady=5)  
 
-label_autor_id = tk.Label(tab_livros, text="ID do Autor:", bg="#ADD8E6")  
+label_autor_id = tk.Label(tab_livros, text="ID do Autor:", bg="#001F3F", fg="white")  
 label_autor_id.grid(row=1, column=0, padx=5, pady=5)  
 entry_autor_id = tk.Entry(tab_livros)  
 entry_autor_id.grid(row=1, column=1, padx=5, pady=5)  
@@ -216,20 +216,20 @@ livros_list.column('Autor', width=100)
 livros_list.grid(row=4, column=0, columnspan=2, padx=5, pady=5)  
 
 # Aba de Empréstimos  
-tab_emprestimos = tk.Frame(notebook, bg="#ADD8E6")  
+tab_emprestimos = tk.Frame(notebook, bg="#001F3F")  
 notebook.add(tab_emprestimos, text="Empréstimos")  
 
-label_livro_id = tk.Label(tab_emprestimos, text="ID do Livro:", bg="#ADD8E6")  
+label_livro_id = tk.Label(tab_emprestimos, text="ID do Livro:", bg="#001F3F", fg="white")  
 label_livro_id.grid(row=0, column=0, padx=5, pady=5)  
 entry_livro_id = tk.Entry(tab_emprestimos)  
 entry_livro_id.grid(row=0, column=1, padx=5, pady=5)  
 
-label_nome_usuario = tk.Label(tab_emprestimos, text="Nome do Usuário:", bg="#ADD8E6")  
+label_nome_usuario = tk.Label(tab_emprestimos, text="Nome do Usuário:", bg="#001F3F", fg="white")  
 label_nome_usuario.grid(row=1, column=0, padx=5, pady=5)  
 entry_nome_usuario = tk.Entry(tab_emprestimos)  
 entry_nome_usuario.grid(row=1, column=1, padx=5, pady=5)  
 
-label_data_emprestimo = tk.Label(tab_emprestimos, text="Data do Empréstimo:", bg="#ADD8E6")  
+label_data_emprestimo = tk.Label(tab_emprestimos, text="Data do Empréstimo:", bg="#001F3F", fg="white")  
 label_data_emprestimo.grid(row=2, column=0, padx=5, pady=5)  
 entry_data_emprestimo = tk.Entry(tab_emprestimos)  
 entry_data_emprestimo.grid(row=2, column=1, padx=5, pady=5)  
@@ -256,3 +256,4 @@ emprestimos_list.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
 
 # Inicia a interface  
 root.mainloop()  
+
